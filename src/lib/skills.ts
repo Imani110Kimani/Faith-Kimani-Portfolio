@@ -20,4 +20,9 @@ export const skills = [
   { name: 'Responsive Design', type: 'frontend' },
   { name: 'Cloud Deployment', type: 'cloud' },
   { name: 'TinyML', type: 'cloud' },
+  // Professional Skills
+  { name: 'Effective Communication', type: 'soft' },
+  { name: 'Problem Solving & Critical Thinking', type: 'soft' },
+  { name: 'Teamwork', type: 'soft' },
+  { name: 'Quantitative Reasoning', type: 'soft' },
 ];

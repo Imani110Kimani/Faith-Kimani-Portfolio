@@ -7,7 +7,7 @@ export default function ExperienceSection() {
       <h2 className="text-2xl font-bold mb-4">Experience</h2>
       <div className="border-l-2 border-mainblue pl-4">
         {experience.map(item => (
-          <TimelineItem key={item.role + item.company} item={item} />
+          <TimelineItem key={item.title + item.company} item={item} />
         ))}
       </div>
     </section>

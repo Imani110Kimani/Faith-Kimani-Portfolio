@@ -1,14 +1,23 @@
 export const experience = [
   {
-    role: 'Project Manager & ICT Intern',
-    company: 'Redp',
-    date: 'Apr 2025 – Present',
-    description: 'Managing projects and providing IT support at Redp.'
+    title: "Project Manager & ICT Intern",
+    company: "Redp",
+    period: "Apr 2025 – Present",
+    details: [
+      "Leading the development of a digital scholarship system in collaboration with software and design teams.",
+      "Overseeing project planning, timelines, and progress tracking using agile methodologies.",
+      "Contributed to frontend development using React and integrated cloud solutions via AWS and Microsoft Azure.",
+      "Facilitated communication between stakeholders and the technical team to align goals and deliverables.",
+    ],
   },
   {
-    role: 'ICT Intern',
-    company: 'Ministry of Industrialization, Trade & Enterprise Development',
-    date: 'Jun 2021',
-    description: 'IT support and digital transformation projects.'
+    title: "ICT Intern",
+    company: "Ministry of Industrialization, Trade & Enterprise Development",
+    period: "June 2021",
+    details: [
+      "Solved IT issues and improved internal workflows.",
+      "Assisted in software rollouts and training.",
+      "Mentored peers on IoT and mobile development.",
+    ],
   },
 ];
